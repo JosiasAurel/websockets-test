@@ -1,0 +1,17 @@
+{
+  "name": "wsverceltest",
+  "version": "1.0.0",
+  "description": "A simple websocket echo test to run o' vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ws"
+  ],
+  "author": "Josias Aurel",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.2"
+  }
+}

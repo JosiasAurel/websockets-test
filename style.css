@@ -1,0 +1,28 @@
+body {
+    font-size: 15pt;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+input {
+  padding: 1em;
+  border: solid #606EFF;
+  border-radius: 6px;
+  margin-bottom: 2em;
+}
+
+button {
+  padding: 1em;
+  border: solid transparent;
+  background-color: #606EFF;
+  border-radius: 4px;
+}
+
+h3 {
+  text-align: center;
+}
