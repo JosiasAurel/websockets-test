@@ -6,7 +6,7 @@ let msg = document.getElementById('msg')
 
 let resp = document.getElementById('res')
 
-let ws = new WebSocket("ws://websockets-testv.vercel.app/api/")
+let ws = new WebSocket("ws://localhost:8000")
 
 ws.onopen = alert("Connected")
 
