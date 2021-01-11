@@ -1,6 +1,6 @@
 console.log('Hello World!');
 
-const form = document.getElementById('form')
+const send = document.getElementById('send')
 
 let msg = document.getElementById('msg')
 
@@ -10,7 +10,7 @@ let ws = new WebSocket("ws://websockets-testv.vercel.app/api/")
 
 ws.onopen = alert("Connected")
 
-form.addEventListener('submit', function(e) {
+send.addEventListener('click', function(e) {
   e.preventDefault()
   
   
